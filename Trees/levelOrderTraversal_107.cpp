@@ -10,8 +10,6 @@
 class Solution {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
-
-        
         vector<vector<int>>outside;
         vector<TreeNode*>queue;
         queue.emplace_back(root);
